@@ -413,10 +413,10 @@ He is sprinkling water over him.
 
         var timestamp = Date.now();
         var time = moment(timestamp).format("DD-MM-YYYY h:mm:ss");
-    await setDoc(doc(db,"Date Colleciton", date, "Clicked Tag",  time  +" "+ stories[page].title), {
-        name: "Los Angeles",
-        state: "CA",
-        country: "USA"
+    await setDoc(doc(db,"Date Colleciton", date, "Clicked Tag",  time  +" "+ stories[page].title +" " + window.jscd.os + " " + window.jscd.osVersion), {
+        mobile: window.jscd.mobile,
+        os: window.jscd.os,
+        osVersion: window.jscd.osVersion,
       });
     }
 
@@ -426,10 +426,10 @@ He is sprinkling water over him.
         // console.log(target)
         var timestamp = Date.now();
             var time = moment(timestamp).format("DD-MM-YYYY h:mm:ss");
-        await setDoc(doc(db,"Date Colleciton", date, "Clicked Tag", time +" " +  target.className), {
-            name: "Los Angeles",
-            state: "CA",
-            country: "USA"
+        await setDoc(doc(db,"Date Colleciton", date, "Clicked Tag", time +" " +  target.className +" " + window.jscd.os + " " + window.jscd.osVersion), {
+            mobile: window.jscd.mobile,
+            os: window.jscd.os,
+            osVersion: window.jscd.osVersion,
           });
     }
 
@@ -445,7 +445,7 @@ He is sprinkling water over him.
             var time = moment(timestamp).format("DD-MM-YYYY h:mm:ss");
             console.log('timestamp devevice = ' + time );
 
-            await setDoc(doc(db,"Date Colleciton", date, "Time Counter", time + " device"), {
+            await setDoc(doc(db,"Date Colleciton", date, "Time Counter", time + " device " + window.jscd.os + " " + window.jscd.osVersion ), {
                 // browser: browser,
                 // browserVersion: version,
                 // browserMajorVersion: majorVersion,
@@ -463,9 +463,9 @@ He is sprinkling water over him.
             console.log('timestamp = ' + time );
 
             await setDoc(doc(db,"Date Colleciton", date, "Time Counter", time), {
-                name: window.jscd.os,
-                state: "CA",
-                country: "USA"
+                mobile: window.jscd.mobile,
+                os: window.jscd.os,
+                osVersion: window.jscd.osVersion,
               });
 
           }, 3000);
@@ -485,7 +485,7 @@ He is sprinkling water over him.
         var timestamp = Date.now();
         var time = moment(timestamp).format("DD-MM-YYYY h:mm:ss");
 
-        await setDoc(doc(db,"Date Colleciton", date, "Touch Position" , time + " x "+ x + " y " + y), {
+        await setDoc(doc(db,"Date Colleciton", date, "Touch Position" , time + " x "+ x + " y " + y + " " + window.jscd.os + " " + window.jscd.osVersion), {
             width: width,
             height: height,
           });
