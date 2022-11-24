@@ -1,8 +1,14 @@
-import { useState } from "react";
+import { useState , useEffect} from "react";
 import React from "react";
 import ContentBody from "./components/ContentBody";
 import Header from "./components/Header";
 import Navigation from "./components/Navigation";
+import moment from "moment";
+
+import { db } from "./firebase-config.js";
+import { collection, getDocs } from "firebase/firestore"; 
+
+import { doc, setDoc } from "firebase/firestore";
 
 function App(){
 
@@ -21,9 +27,6 @@ function App(){
             This website is built in react with 🌹
             and
             Design is my imagination only.
-
-            I am Raman kumar😎
-            who can write some program and have a degree in it.
 
             Know me more from twitter.com/KRaman1998
 
@@ -244,14 +247,56 @@ He is sprinkling water over him.
     const changeStory = (page)=>{
         setCurrentStory(stories[page])
         setCurrentPage(page)
+
+        sotryselected(page)
+    }
+
+    const sotryselected = (page)=>{
+        // console.log(page)
+        console.log(stories[page].title)
+        // console.log(target)
+    }
+
+    const sendFirebaseInfo = (page, target)=>{
+        // console.log(page)
+        console.log(target.className)
+        // console.log(target)
+    }
+
+    useEffect(() => {
+        // Update the document title using the browser API
+        setInterval(() => {
+            var timestamp = Date.now();
+            var time = moment(timestamp).format("DD-MM-YYYY h:mm:ss");
+            console.log('timestamp = ' + time );
+          }, 3000);
+
+      }, []);
+
+    const logFirebase = async (x, y)=>  {
+        const { innerWidth: width, innerHeight: height } = window;
+        console.log(width)
+        console.log(height)
+        // console.log(target)
+        console.log(x)
+        console.log(y)
+
+        // console.log(window.navigator)
+
+        // await setDoc(doc(db, "cities", "LA"), {
+        //     name: "Los Angeles",
+        //     state: "CA",
+        //     country: "USA"
+        //   });
+        //   console.log("done")
     }
 
     return (
-       <div className="container">
+       <div className="container" onClick={(e) => {logFirebase(e.screenX, e.screenY)}}>
         {/* <Header title='You can read some stories here' /> */}
 
         <Navigation stories={stories} onTap ={changeStory} selected={currentPage}/>
-        <ContentBody story={currentStory} currentPage={currentPage} />
+        <ContentBody story={currentStory} onTrack={sendFirebaseInfo} currentPage={currentPage} />
        </div>
     )
 }
