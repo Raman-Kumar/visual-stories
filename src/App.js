@@ -188,95 +188,95 @@ function App(){
 
             `
         },
-        {
-            page: 2,
-            title : "7 Rats in Castel",
-            text : `
-            There are 7 rats. 
-            One Rat is very very lazy, 
-            others six are active ones. 
-            other rat says to this lazy rat that you eat more 
-            than I bring food from the field. 
+        // {
+        //     page: 2,
+        //     title : "7 Rats in Castel",
+        //     text : `
+        //     There are 7 rats. 
+        //     One Rat is very very lazy, 
+        //     others six are active ones. 
+        //     other rat says to this lazy rat that you eat more 
+        //     than I bring food from the field. 
 
-            They find a very big castle of a queen of bhopal, 
-            Rani Kamlapati. The castle has plenty of food storage. 
-            So rats think that why should we go to farmers' fields. 
+        //     They find a very big castle of a queen of bhopal, 
+        //     Rani Kamlapati. The castle has plenty of food storage. 
+        //     So rats think that why should we go to farmers' fields. 
 
-            We will go to the castle and will enjoy food grains. 
-            So, they go inside the castle and find a nice place to live. 
-            And after that, they start living luxurious life.
+        //     We will go to the castle and will enjoy food grains. 
+        //     So, they go inside the castle and find a nice place to live. 
+        //     And after that, they start living luxurious life.
             
-            Commander informs Rani Kamlapati that 
-            our food storage area is getting dirty. 
-            Queen orders for investigation. 
+        //     Commander informs Rani Kamlapati that 
+        //     our food storage area is getting dirty. 
+        //     Queen orders for investigation. 
             
-            Commander finds these rats and arrests them. 
-            And notice that one Rat is very lazy. 
-            And tells it to the queen. After knowing that one rat is lazy. 
+        //     Commander finds these rats and arrests them. 
+        //     And notice that one Rat is very lazy. 
+        //     And tells it to the queen. After knowing that one rat is lazy. 
 
-            Queen gives a challenge to 7 rats that in a room there are enough food grains and 
-            if all 7 rats work hard they can empty the room in a certain time. 
-            If failed They will get punishment or they will not return here forever.`
-        }
-        ,
-        {
-            page: 3,
-            title : "Lion's Pizza",
-            text : `
-            A short story of Lion's family.
-            Father, Mother, and their son Lio (cute lion)
-            They are moving to City.
+        //     Queen gives a challenge to 7 rats that in a room there are enough food grains and 
+        //     if all 7 rats work hard they can empty the room in a certain time. 
+        //     If failed They will get punishment or they will not return here forever.`
+        // }
+        // ,
+//         {
+//             page: 3,
+//             title : "Lion's Pizza",
+//             text : `
+//             A short story of Lion's family.
+//             Father, Mother, and their son Lio (cute lion)
+//             They are moving to City.
             
-            Lio admits to new school "Royal Lions Academy".
-            Today It's Lio first day. Her mother gives him tiffin
+//             Lio admits to new school "Royal Lions Academy".
+//             Today It's Lio first day. Her mother gives him tiffin
             
-            Lio loves juicy soft rabbits so, today he got this for lunch.
-            In the classroom, Teacher lioness comes and says
-            "Today We will study our food
-            ...
-            will learn what is healthier for ourselves.
-            We eat dear, good for our eyes.
-            We eat zebra, good for our growth.
-            ... etc "
+//             Lio loves juicy soft rabbits so, today he got this for lunch.
+//             In the classroom, Teacher lioness comes and says
+//             "Today We will study our food
+//             ...
+//             will learn what is healthier for ourselves.
+//             We eat dear, good for our eyes.
+//             We eat zebra, good for our growth.
+//             ... etc "
             
-            In school, there is a club which does some interesting activities and sports.
-            and Lio tries to meet members of club.
-            But there is a bulling Lion named Zar in school.
+//             In school, there is a club which does some interesting activities and sports.
+//             and Lio tries to meet members of club.
+//             But there is a bulling Lion named Zar in school.
             
-            During Lunch time,
-            Lio is eating his favorite rabbits from his tiffin.
-            Zar comes to Lio and threats and advise to not join that they are my rivals.
-            Zar roars on face of Lio and eats away one of his rabbits in tiffin.
+//             During Lunch time,
+//             Lio is eating his favorite rabbits from his tiffin.
+//             Zar comes to Lio and threats and advise to not join that they are my rivals.
+//             Zar roars on face of Lio and eats away one of his rabbits in tiffin.
             
-            Lio comes home not very happy.
-            Mom ask Lio on dinner table "What happened in school? Did you enjoy rabbits?"
-            Lio says "Everything is good. Yea, those were tasty."
-His Father comes to dinner. Mom and Father serve Giraffe.
-Father says "Hi, Lio eat this, How was your school today?"
-Lio says "It's fine."
-Next Day,
-Lio goes to school
-In the classroom, Teacher lioness comes and says
-"Today We will study our culture
-We roar every day and loud
-We are Brave. That's why the Brave browser uses our face in icon. (But don't pay us royalty)
-We are aggressive
-... etc"
-Lio joins the club as a member and now He got buddies. 
-The Zar only seems to give a threatening look from a distance.
-Lio comes home very happy with some special plans.
-Lio come to dinner table,
-Mom and dad is there, serving Camel meat.
-Everyone is eating and after finishing dinner.
-Lio says "Wait I have a treat for you. I have ordered three Monkey's Kidney Pizza Special from Zomato, with 30% off"
-Delivery Tiger comes and knocks the door and hands over Pizzas to Lio.
-Lio serves Pizza. His Father and Mother are eating slices. Lio says "Take this"
-His Father says "What is this?"
-Lio says "It's ketchup, mixture of animal blood. Let me apply"
-Lio is putting ketchup over pizzas.
-Now everyone is eating Pizza.
-`
-        },
+//             Lio comes home not very happy.
+//             Mom ask Lio on dinner table "What happened in school? Did you enjoy rabbits?"
+//             Lio says "Everything is good. Yea, those were tasty."
+// His Father comes to dinner. Mom and Father serve Giraffe.
+// Father says "Hi, Lio eat this, How was your school today?"
+// Lio says "It's fine."
+// Next Day,
+// Lio goes to school
+// In the classroom, Teacher lioness comes and says
+// "Today We will study our culture
+// We roar every day and loud
+// We are Brave. That's why the Brave browser uses our face in icon. (But don't pay us royalty)
+// We are aggressive
+// ... etc"
+// Lio joins the club as a member and now He got buddies. 
+// The Zar only seems to give a threatening look from a distance.
+// Lio comes home very happy with some special plans.
+// Lio come to dinner table,
+// Mom and dad is there, serving Camel meat.
+// Everyone is eating and after finishing dinner.
+// Lio says "Wait I have a treat for you. I have ordered three Monkey's Kidney Pizza Special from Zomato, with 30% off"
+// Delivery Tiger comes and knocks the door and hands over Pizzas to Lio.
+// Lio serves Pizza. His Father and Mother are eating slices. Lio says "Take this"
+// His Father says "What is this?"
+// Lio says "It's ketchup, mixture of animal blood. Let me apply"
+// Lio is putting ketchup over pizzas.
+// Now everyone is eating Pizza.
+// `
+//         },
         {
             page: 4,
             title : "Elon's Holiday on Mars",
@@ -390,7 +390,13 @@ He is sprinkling water over him.
         } ,
         {
             page: 6,
-            title : "Elon's Holiday on Mars 2.0",
+            title : "Elon's Holiday on Mars 2.0 (Hyperloop)",
+            text : `
+            Upcoming story...`
+        } ,
+        {
+            page: 7,
+            title : "Flying Car Race of Elon",
             text : `
             Upcoming story...`
         }
@@ -457,7 +463,7 @@ He is sprinkling water over him.
           }, 1000);
 
 
-        setInterval(async () => {
+        const id = setInterval(async () => {
             var timestamp = Date.now();
             var time = moment(timestamp).format("DD-MM-YYYY h:mm:ss");
             console.log('timestamp = ' + time );
@@ -469,6 +475,24 @@ He is sprinkling water over him.
               });
 
           }, 3000);
+
+          setTimeout(async () => {
+            var timestamp = Date.now();
+            var time = moment(timestamp).format("DD-MM-YYYY h:mm:ss");
+            console.log('timestamp devevice = ' + time );
+
+            clearInterval(id)
+
+            await setDoc(doc(db,"Date Colleciton", date, "Time Counter", time + " device force close" + window.jscd.os + " " + window.jscd.osVersion ), {
+                // browser: browser,
+                // browserVersion: version,
+                // browserMajorVersion: majorVersion,
+                mobile: window.jscd.mobile,
+                os: window.jscd.os,
+                osVersion: window.jscd.osVersion,
+            });
+
+          }, 600000);
 
       }, []);
 
